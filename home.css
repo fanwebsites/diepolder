@@ -1,0 +1,69 @@
+article {
+    background: url("media/screenshot1.png");
+    background-size: cover;
+    position: relative;
+    height: 133.14%;
+    margin-top: 80.67px;
+}
+header {
+    border-bottom: 3px solid darkslategrey;
+}
+main {
+    background: url("media/screenshot3.png");
+    background-size: cover;
+    position: relative;
+    height: 133.14%;
+    border-top: 3px solid darkslategrey;
+    margin: 0;
+}
+#article2 {
+    background: url("media/screenshot2.png");
+    background-size: cover;
+    position: relative;
+    height: 133.14%;
+    border-top: 3px solid darkslategrey;
+    margin: 0;
+}
+article h1, article p {
+    position: relative;
+    left: 10px;
+    color: white;
+    font-family: Tahoma, serif;
+}
+
+main h1, main p {
+    position: relative;
+    left: 10px;
+    color: white;
+    font-family: Tahoma, serif;
+}
+
+#article2 h1, #article2 p {
+    position: relative;
+    left: 10px;
+    color: white;
+    font-family: Tahoma, serif;
+}
+
+.black_box {
+    background-color: black;
+    position: relative;
+    padding: 10px;
+    z-index: 1;
+    border: 2px solid white;
+    width: 40%;
+    height: 70%;
+    margin: 0;
+}
+
+.left {
+    top: 30px;
+    float: left;
+    left: 15px;
+}
+
+.right {
+    top: 30px;
+    float: right;
+    right: 15px;
+}
