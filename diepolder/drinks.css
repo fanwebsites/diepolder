@@ -1,0 +1,91 @@
+main {
+    margin-top: 80.67px;
+    height:  350px;
+    background-color: black;
+}
+#top {
+    background-color: black;
+    height: 48%;
+}
+header {
+    border-bottom: 3px solid darkslategrey;
+}
+#bottom {
+    background-color: black;
+    height: 48%;
+}
+.img_right {
+    display: inline-block;
+    border: 2px solid darkslategrey;
+    height: 80%;
+    width: 25%;
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 100px;
+}
+
+.img_left {
+    display: inline-block;
+    border: 2px solid darkslategrey;
+    height: 80%;
+    width: 25%;
+    position: relative;
+    float: left;
+    top: 20px;
+    left: 100px;
+}
+.img_center {
+    display: inline-block;
+    border: 2px solid darkslategrey;
+    height: 80%;
+    width: 25%;
+    position: relative;
+    top: 20px;
+    left: 122.5px;
+}
+#left_top {
+    background: url("media/liquor.png");
+    background-size: cover;
+    background-position-y: center;
+}
+#left_bottom {
+    background: url("media/special.png");
+    background-size: cover;
+    background-position-y: center;
+}
+#right_bottom {
+    background: url("media/others.png");
+    background-size: cover;
+    background-position-y: center;
+}
+#right_top  {
+    background: url("media/beer.png");
+    background-size: cover;
+    background-position-y: center;
+}
+#center_bottom {
+    background: url("media/martini.png");
+    background-size: cover;
+    background-position-y: center;
+}
+#center_top {
+    background: url("media/cocktail.png");
+    background-size: cover;
+    background-position-y: center;
+}
+.middle {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#note {
+    position: relative;
+    bottom : 0;
+    left: 0;
+    font-size: 10px;
+    height: 4%;
+    padding: 0;
+    margin: 0;
+}
